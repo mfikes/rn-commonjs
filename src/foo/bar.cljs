@@ -1,4 +1,5 @@
 (ns foo.bar
-  (:require ActionSheetIOS))
+  (:require [Set]
+            [Map]))
 
 (defn square [x] (* x x))

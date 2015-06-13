@@ -14,7 +14,8 @@
   {:builds
    [{:source-paths ["src"]
      :compiler
-                   {:output-dir "out"
+                   {:output-to  "out/main.js"
+                    :output-dir "out"
                     :foreign-libs
                                 [{:file
                                                "Libraries/ActionSheetIOS/ActionSheetIOS.js",

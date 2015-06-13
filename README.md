@@ -8,4 +8,7 @@ Test React Native commonjs processing
 
 Then look in `out` to see the generated files.
 
+If you look at `out/crc32.js` you will see that the conversion succeeded for that dep.
+On the other hand, many files end up as emtpy stubs, like `out/_shouldPolyfillES6Collection.js`.
+
 Note: The `:foreign-libs` portion of `project.clj` was produced using [derevo](https://github.com/mfikes/derevo).
